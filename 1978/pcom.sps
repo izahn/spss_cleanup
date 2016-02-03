@@ -8,7 +8,10 @@ DATA LIST FILE='/run/media/izahn/A433-5023/1978/dcom78.dat' RECORDS=4
                DKM,DKD,DKY,DGM,DGD,DGY,CAT,CAP,CAPR,CAS,
                CAN,CAD,CAE,INJ,INH,INS,PJ,PVJ,PA,PVA, 
                CINST,DCM,DCD,DCY,TCOM 
-               (F7,18X,F1,2X,F2,1X,2F2,7X,2F3,9X,2F1,12F2,3F1,F3, 7X,4F1,1X,F2,F1,19F2,4F1,40X,F2,7X,4F2).
+               (F7,18X,F1,2X,F2,1X,2F2/
+               7X,2F3,9X,2F1,12F2,3F1,F3/ 
+               7X,4F1,1X,F2,F1,19F2,4F1/
+               40X,F2,7X,4F2).
                
 N OF CASES     999.
 VALUE LABELS   SEX 1 'MALE' 2 'FEMALE'.
